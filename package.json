@@ -1,7 +1,22 @@
-# Webpack template
-Basic configuration of Webpack.
-
-## Technologies
+{
+  "name": "webpack-template",
+  "version": "1.0.0",
+  "description": "Basic configuration of Webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "set NODE_ENV=development&&webpack serve",
+    "dev": "set NODE_ENV=development&&webpack",
+    "build": "set NODE_ENV=production&&webpack"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 1%",
+    "IE 10"
+  ],
+  "keywords": [],
+  "author": "h4rb4rd",
+  "license": "ISC",
+  "devDependencies": {
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "babel-loader": "^8.2.3",
@@ -19,21 +34,8 @@ Basic configuration of Webpack.
     "webpack": "^5.65.0",
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
-
-## Start using for a new project
-Clone the repo
-Run npm i to install dependencies
-Run commands in terminal:
-
-Development Server
-```
-npm start
-```
-Production Build
-```
-npm run build
-```
-Development mode
-```
-npm run dev
-```
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
