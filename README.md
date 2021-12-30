@@ -43,6 +43,11 @@ Development mode
 ```
 npm run dev
 ```
-Fixing ESLint problems 
+Checking ESLint problems 
 ```
 npm run lint
+```
+Fixing ESLint problems 
+```
+npm run lintfix
+```
