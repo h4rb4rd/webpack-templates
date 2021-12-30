@@ -1,12 +1,15 @@
 # Webpack template
+
 Basic configuration of Webpack.
 
 ## Technologies
+
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "copy-webpack-plugin": "^10.0.0",
     "css-loader": "^6.5.1",
     "eslint": "^8.5.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-webpack-plugin": "^3.1.1",
@@ -27,27 +30,37 @@ Basic configuration of Webpack.
     "webpack-dev-server": "^4.6.0"
 
 ## Start using for a new project
+
 Clone the repo
 Run npm i to install dependencies
 Run commands in terminal:
 
 Development Server
+
 ```
 npm start
 ```
+
 Production Build
+
 ```
 npm run build
 ```
+
 Development mode
+
 ```
 npm run dev
 ```
-Checking ESLint problems 
+
+Checking ESLint problems
+
 ```
 npm run lint
 ```
-Fixing ESLint problems 
+
+Fixing ESLint problems
+
 ```
 npm run lintfix
 ```
